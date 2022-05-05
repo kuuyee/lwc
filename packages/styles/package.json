@@ -9,7 +9,7 @@
     "clean": "pnpm rimraf node_modules && pnpm rimraf dist && pnpm rimraf .turbo"
   },
   "optionalDependencies": {
-    "element-plus": "^2.1.11",
+    "element-plus": "^2.2.0",
     "vue": "3.2.33",
     "vue-router": "^4.0.15"
   }

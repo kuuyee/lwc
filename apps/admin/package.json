@@ -1,5 +1,5 @@
 {
-  "name": "@apps/basic-admin",
+  "name": "@apps/admin",
   "version": "1.0.0-alpha.1",
   "scripts": {
     "build": "pnpm cross-env NODE_ENV=production vite build",
@@ -15,11 +15,11 @@
     "@gmok/components": "workspace:*",
     "@gmok/styles": "workspace:*",
     "@gmok/utils": "workspace:*",
-    "dayjs": "^1.11.1",
-    "element-plus": "^2.1.11",
+    "dayjs": "^1.11.2",
+    "element-plus": "^2.2.0",
     "lodash-es": "^4.17.21",
     "nprogress": "^0.2.0",
-    "pinia": "2.0.13",
+    "pinia": "2.0.14",
     "vue": "3.2.33",
     "vue-router": "^4.0.15"
   },
