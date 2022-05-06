@@ -50,13 +50,7 @@ export async function createViteConfig(
         },
       },
       optimizeDeps: {
-        include: [
-          'dayjs/locale/en',
-          'dayjs/locale/zh-cn',
-          'element-plus/lib/locale/lang/zh-cn',
-          'element-plus/es',
-          'element-plus/es/components/config-provider/style/index',
-        ],
+        include: ['dayjs/locale/en', 'dayjs/locale/zh-cn'],
       },
       plugins: await configVitePlugins(root, viteEnv, command === 'build'),
     }

@@ -1,26 +1,9 @@
-<script setup>
-import HelloWorld from './HelloWorld.vue'
-import BaseHeader from './BaseHeader.vue'
-import BaseSide from './BaseSide.vue'
-</script>
+<script setup></script>
 
 <template>
-  <BaseHeader />
-  <div style="display: flex">
-    <BaseSide />
-    <div>
-      <HelloWorld msg="Hello Vue 3.0 + Element Plus + Vite" />
-    </div>
-  </div>
+  <n-space>
+    <n-button tertiary> Default </n-button>
+    <n-button tertiary type="primary"> Primary </n-button>
+    <n-button tertiary type="info"> Info </n-button>
+  </n-space>
 </template>
-
-<style>
-#app {
-  text-align: center;
-  color: var(--el-text-color-primary);
-}
-
-.element-plus-logo {
-  width: 50%;
-}
-</style>

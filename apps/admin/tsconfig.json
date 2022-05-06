@@ -8,7 +8,7 @@
       "@/*": ["src/*"]
     },
     "lib": ["dom", "esnext"],
-    "types": ["vite/client", "element-plus/global"]
+    "types": ["vite/client", "naive-ui/volar"]
   },
   "include": ["src", "vite.config.ts"]
 }

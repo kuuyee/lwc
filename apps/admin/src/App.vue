@@ -1,20 +1,12 @@
-<script lang="ts" setup>
-import zhCn from 'element-plus/lib/locale/lang/zh-cn'
-
-const size = 'small' as const
-const zIndex = 3000
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <el-config-provider :size="size" :z-index="zIndex" :locale="zhCn">
-    <router-view />
-  </el-config-provider>
+  <router-view />
 </template>
 
 <style>
 #app {
   text-align: center;
-  color: var(--el-text-color-primary);
 }
 
 .element-plus-logo {
