@@ -9,8 +9,7 @@
       "dependsOn": ["^clean"]
     },
     "test": {
-      "dependsOn": ["^test"],
-      "outputs": []
+      "dependsOn": ["^test"]
     },
     "dev": {
       "cache": false
