@@ -5,12 +5,9 @@
   "module": "index.ts",
   "private": true,
   "license": "MIT",
-  "scripts": {
-    "clean": "pnpm rimraf node_modules && pnpm rimraf dist && pnpm rimraf .turbo"
-  },
   "optionalDependencies": {
-    "element-plus": "^2.2.0",
-    "vue": "3.2.33",
-    "vue-router": "^4.0.15"
+    "element-plus": "^2.2.9",
+    "vue": "3.2.37",
+    "vue-router": "^4.1.1"
   }
 }

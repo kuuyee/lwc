@@ -6,13 +6,11 @@ import purgeIcons from 'vite-plugin-purge-icons'
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import { resolve } from 'path'
 import Unocss from 'unocss/vite'
-// @ts-ignore
-import presetIcons from '@unocss/preset-icons'
-// @ts-ignore
-import presetMini from '@unocss/preset-mini'
+import { presetMini, presetIcons } from 'unocss'
 import visualizer from 'rollup-plugin-visualizer'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import compressPlugin from 'vite-plugin-compression'
 
 export async function configVitePlugins(
   root: string,
@@ -23,9 +21,7 @@ export async function configVitePlugins(
     viteEnv
 
   const vitePlugins: (PluginOption | PluginOption[])[] = [
-    // have to
     vue(),
-    // have to
     vueJsx(),
     Unocss({
       presets: [presetIcons(), presetMini()],
@@ -65,8 +61,6 @@ export async function configVitePlugins(
 
   return vitePlugins
 }
-
-import compressPlugin from 'vite-plugin-compression'
 
 export function configCompressPlugin(
   compress: 'gzip' | 'brotli' | 'none',

@@ -42,7 +42,8 @@
     ".eslintrc.js": true,
     ".lintstagedrc.js": true,
     ".prettierrc.js": true,
-    ".npmrc": true,
+    ".husky": true,
+    ".npmrc": false,
     ".gitignore": true,
     ".stylelintrc.js": true,
     "**/bower_components": true,
@@ -67,7 +68,8 @@
   },
   "stylelint.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
   "[vue]": {
     "editor.codeActionsOnSave": {
@@ -76,5 +78,7 @@
   },
   "cSpell.words": [],
   "commentTranslate.multiLineMerge": true,
-  "typescript.suggest.autoImports": false
+  "typescript.suggest.autoImports": false,
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue"],
+  "stylelint.packageManager": "pnpm"
 }

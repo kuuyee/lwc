@@ -55,7 +55,7 @@ const svgStyle = computed((): CSSProperties => {
   display: inline-block;
   overflow: hidden;
   vertical-align: -0.15em;
-  fill: currentColor;
+  fill: currentcolor;
 
   &__infinite {
     animation: loadingCircle 1s infinite linear;

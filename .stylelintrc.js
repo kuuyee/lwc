@@ -1,1 +1,1 @@
-module.exports = require('@config/lint/stylelint')
+module.exports = require('@config/lint/stylelint/index')

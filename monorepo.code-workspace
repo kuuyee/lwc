@@ -1,0 +1,48 @@
+{
+  "folders": [
+    {
+      "name": "@apps/admin",
+      "path": "apps/admin"
+    },
+    {
+      "name": "@config/lint",
+      "path": "configs/lint"
+    },
+    {
+      "name": "tsconfig",
+      "path": "configs/tsconfig"
+    },
+    {
+      "name": "@config/vite",
+      "path": "configs/vite"
+    },
+    {
+      "name": "@gmok/components",
+      "path": "packages/components"
+    },
+    {
+      "name": "@gmok/styles",
+      "path": "packages/styles"
+    },
+    {
+      "name": "@gmok/utils",
+      "path": "packages/utils"
+    },
+    {
+      "name": "@internal/scrtips",
+      "path": "scripts"
+    },
+    {
+      "name": "@scripts/cli-collection",
+      "path": "scripts/cli-collection"
+    },
+    {
+      "name": "docs",
+      "path": "website"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ]
+}

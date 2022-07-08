@@ -8,6 +8,9 @@
     "clean": {
       "dependsOn": ["^clean"]
     },
+    "stub": {
+      "cache": false
+    },
     "test": {
       "dependsOn": ["^test"]
     },

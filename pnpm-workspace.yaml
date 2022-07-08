@@ -4,4 +4,5 @@ packages:
   - 'apps/*'
   - 'packages/components/*'
   - 'scripts'
-  - 'docs'
+  - 'scripts/*'
+  - 'website'

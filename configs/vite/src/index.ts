@@ -36,8 +36,6 @@ export async function createViteConfig(
         pure: VITE_DROP_CONSOLE ? ['console.log', 'debugger'] : [],
       },
       build: {
-        target: 'chrome80',
-        cssTarget: 'chrome80',
         outDir: 'dist',
         brotliSize: false,
         chunkSizeWarningLimit: 2048,
