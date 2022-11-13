@@ -1,0 +1,4 @@
+{
+  "extends": "@gmok/tsconfig/base.json",
+  "include": ["src"]
+}

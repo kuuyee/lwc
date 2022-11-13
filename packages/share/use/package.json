@@ -1,0 +1,15 @@
+{
+  "name": "@gmok/use",
+  "version": "1.0.0-alpha.1",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vueuse/core": "^8.6.0",
+    "vue": "3.2.36",
+    "vue-router": "^4.0.15"
+  }
+}

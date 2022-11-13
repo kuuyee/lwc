@@ -1,0 +1,74 @@
+.home-hero .image {
+  width: 200px;
+  height: 200px;
+}
+
+.nav-bar .logo {
+  height: 30px;
+  margin-right: 2px;
+}
+
+.content img {
+  border-radius: 10px;
+}
+
+.nav-dropdown-link-item .icon {
+  display: none;
+}
+
+:root {
+  --c-brand: #646cff;
+  --c-brand-light: #747bff;
+}
+
+.custom-block.tip {
+  border-color: var(--c-brand-light);
+}
+
+.DocSearch {
+  --docsearch-primary-color: var(--c-brand) !important;
+}
+
+/* docs-cn specific */
+.cn-footnote {
+  margin-top: 20px;
+}
+
+.cn-footnote .title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.docs-cn-github-release-tag {
+  padding: 4px 6px;
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: var(--c-brand);
+  border-radius: 10px;
+}
+
+#wwads-container {
+  position: relative;
+  z-index: 9;
+  float: right;
+  margin: 0 0 16px 16px;
+}
+
+#wwads-container .wwads-text {
+  font-size: 12px;
+}
+
+.page .container .content {
+  clear: none !important;
+}
+
+@media (min-width: 1368px) {
+  #wwads-container {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    margin: 0;
+  }
+}

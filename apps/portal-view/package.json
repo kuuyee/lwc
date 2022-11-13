@@ -1,0 +1,38 @@
+{
+  "name": "@apps/admin",
+  "version": "0.1.0-beta.1",
+  "scripts": {
+    "build": "pnpm cross-env NODE_ENV=production vite build",
+    "clean": "pnpm rimraf node_modules && pnpm rimraf dist && pnpm rimraf .turbo",
+    "dev": "vite dev",
+    "preview": "npm run build && vite preview",
+    "preview:dist": "vite preview",
+    "report": "pnpm cross-env REPORT=true npm run build",
+    "type:check": "vue-tsc --noEmit --skipLibCheck"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.9",
+    "@gmok/components": "workspace:*",
+    "@gmok/utils": "workspace:*",
+    "@gmok/design": "workspace:*",
+    "@gmok/bootstrap": "workspace:*",
+    "@gmok/layouts": "workspace:*",
+    "dayjs": "^1.11.5",
+    "nprogress": "^0.2.0",
+    "pinia": "2.0.22",
+    "vue": "3.2.40",
+    "vue-router": "^4.1.5",
+    "naive-ui": "^2.33.4"
+  },
+  "devDependencies": {
+    "@gmok/config-vite": "workspace:*",
+    "@types/nprogress": "^0.2.0",
+    "@vue/compiler-sfc": "3.2.40",
+    "@vue/test-utils": "^2.1.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "typescript": "^4.8.4",
+    "vite": "3.1.6",
+    "vue-tsc": "^0.40.13"
+  }
+}

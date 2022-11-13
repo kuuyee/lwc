@@ -1,0 +1,26 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build ",
+    "serve": "vitepress serve"
+  },
+  "devDependencies": {
+    "chalk": "^5.1.0",
+    "gray-matter": "^4.0.3",
+    "lodash": "^4.17.21",
+    "vite": "^3.1.6",
+    "vitepress": "^1.0.0-draft.8",
+    "yorkie": "^2.0.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-searc"
+      ]
+    }
+  }
+}

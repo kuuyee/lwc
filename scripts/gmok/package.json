@@ -1,0 +1,39 @@
+{
+  "name": "@gmok/cli",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "module": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "bin": {
+    "gmok": "./bin/gmok-cli.mjs"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "pnpm unbuild",
+    "dev": "pnpm esno ./src/dev.ts",
+    "stub": "pnpm unbuild --stub"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.25.0",
+    "@changesets/git": "^1.5.0",
+    "@manypkg/get-packages": "^1.1.3",
+    "cac": "^6.7.14",
+    "consola": "^2.15.3",
+    "execa": "^6.1.0",
+    "fs-extra": "^10.1.0",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/prompts": "^2.4.1"
+  }
+}

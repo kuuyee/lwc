@@ -5,16 +5,20 @@
       "path": "apps/admin"
     },
     {
-      "name": "@config/lint",
-      "path": "configs/lint"
+      "name": "docs",
+      "path": "docs"
     },
     {
-      "name": "tsconfig",
-      "path": "configs/tsconfig"
+      "name": "@gmok/config-lint",
+      "path": "packages/_internal_/lint"
     },
     {
-      "name": "@config/vite",
-      "path": "configs/vite"
+      "name": "@gmok/tsconfig",
+      "path": "packages/_internal_/tsconfig"
+    },
+    {
+      "name": "@gmok/config-vite",
+      "path": "packages/_internal_/vite"
     },
     {
       "name": "@gmok/components",
@@ -29,16 +33,8 @@
       "path": "packages/utils"
     },
     {
-      "name": "@internal/scrtips",
-      "path": "scripts"
-    },
-    {
-      "name": "@scripts/cli-collection",
-      "path": "scripts/cli-collection"
-    },
-    {
-      "name": "docs",
-      "path": "website"
+      "name": "@gmok/cli",
+      "path": "scripts/gmok"
     },
     {
       "name": "root",

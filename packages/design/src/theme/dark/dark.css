@@ -1,0 +1,4 @@
+:root[theme='dark'] {
+  /* 基础文本颜色 */
+  --text-color-base: #333;
+}

@@ -2,9 +2,9 @@
 
 ## 前言
 
-- 建议使用 vscode 作为前端开发工具，以保证部分插件辅助 lint 快速修复。
-- node 版本使用 16.15.0 以上
-- pnpm 版本需要 7.0.0
+- 建议使用 vscode 作为前端开发工具，以保证部分插件辅助 lint 快速修复（改动通用 vscode 配置需要周知下）。
+- node 版本使用 18.0.0 以上
+- pnpm 版本需要 7.14.0
 
 ## 安装
 
@@ -44,3 +44,14 @@ taze major -rw
 pnpm install
 
 ```
+
+### 一些需要遵守的原则&规范
+
+- ts 文件使用小写驼峰规则：todoList.ts
+- vue 文件使用大写写驼峰规则：todoList.ts
+- 出了 naive 全局注册的组件，其余组件全部需要 import 进来，尽量不要使用全局组件
+- 使用 unc.css 和 vue bem scoped 结合来写 css（scoped 必须写）
+- 不使用行内样式
+- 需要使用按需引入，入 `import {set} from ''lodash-es`
+- 引入第三方库时，需要先评估下是否最优，在引入
+- 每次提交 pr，尽量简单写下说明且每次 pr 的代码量不要太多，一小个功能一次提交

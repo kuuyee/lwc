@@ -46,6 +46,8 @@
     ".npmrc": false,
     ".gitignore": true,
     ".stylelintrc.js": true,
+    ".pnpm-debug.log": true,
+    ".gitattributes": true,
     "**/bower_components": true,
     "**/.idea": true,
     "**/tmp": true,

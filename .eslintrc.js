@@ -1,1 +1,1 @@
-module.exports = require('@config/lint/eslint')
+module.exports = require('@gmok/config-lint/eslint')

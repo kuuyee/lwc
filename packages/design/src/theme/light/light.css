@@ -1,0 +1,5 @@
+:root[theme='light'] {
+  /* 基础文本颜色 */
+
+  --text-color-base: #fff;
+}

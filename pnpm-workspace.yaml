@@ -1,8 +1,6 @@
 packages:
   - 'packages/*'
-  - 'configs/*'
+  - 'packages/*/*'
   - 'apps/*'
-  - 'packages/components/*'
-  - 'scripts'
   - 'scripts/*'
-  - 'website'
+  - 'docs'

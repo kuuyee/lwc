@@ -1,0 +1,11 @@
+{
+  "extends": "@gmok/tsconfig/base.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": ".",
+    "lib": ["dom", "esnext"],
+    "types": ["naive-ui/volar"]
+  },
+  "include": ["src"]
+}
