@@ -7,6 +7,8 @@ export const commonRoutes: RouteRecordRaw[] = [
     path: '/',
     name: 'CommonPage',
     component: BlankLayout,
+    // TODO: 权限
+    redirect: '/login',
     children: [
       {
         path: '/login',
