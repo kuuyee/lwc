@@ -1,6 +1,6 @@
 {
   "name": "@gmok/components",
-  "version": "1.0.0-alpha.1",
+  "version": "0.1.0-beta.1",
   "license": "MIT",
   "exports": {
     ".": "./src/index.ts"
@@ -8,11 +8,15 @@
   "main": "./src/index.ts",
   "module": "./src/index.ts",
   "dependencies": {
+    "@gmok/use": "workspace:*",
     "@gmok/utils": "workspace:*",
-    "naive-ui": "^2.33.4"
+    "naive-ui": "^2.34.2"
   },
   "optionalDependencies": {
-    "vue": "3.2.40",
-    "vue-router": "^4.1.5"
+    "vue": "3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.1.143"
   }
 }

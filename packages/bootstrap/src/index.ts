@@ -4,8 +4,8 @@ import 'virtual:svg-icons-register'
 import 'uno.css'
 import { createApp } from 'vue'
 import { Router } from 'vue-router'
-import { setupNaive } from './naive'
 import { pinia } from '@gmok/utils'
+import { setupNaive } from './naive'
 
 export interface BootstrapOptions {
   appName: string

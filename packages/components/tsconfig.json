@@ -3,9 +3,8 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "baseUrl": ".",
-    "lib": ["dom", "esnext"],
-    "types": ["naive-ui/volar"]
+    "baseUrl": "./",
+    "lib": ["dom", "esnext"]
   },
   "include": ["src"]
 }

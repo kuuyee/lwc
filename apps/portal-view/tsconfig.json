@@ -3,12 +3,11 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     },
     "lib": ["dom", "esnext"],
-    "types": ["vite/client", "naive-ui/volar", "unplugin-icons/types/vue"]
-  },
-  "include": ["src", "types", "vite.config.ts"]
+    "types": ["vite/client", "unplugin-icons/types/vue"]
+  }
 }

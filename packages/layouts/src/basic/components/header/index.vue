@@ -15,11 +15,10 @@ const style = computed((): CSSProperties => {
 <template>
   <n-layout-header :class="bem()" bordered :style="style">
     <div></div>
-    <div></div>
   </n-layout-header>
 </template>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .layout-header {
   display: flex;
   align-items: center;

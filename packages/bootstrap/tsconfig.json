@@ -1,7 +1,7 @@
 {
   "extends": "@gmok/tsconfig/base.json",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": "./"
   },
   "include": ["src"]
 }

@@ -16,6 +16,7 @@ export default defineConfig({
 
     nav: [
       { text: '指引', link: '/guide/', activeMatch: '/guide/' },
+      { text: '规范', link: '/spec/', activeMatch: '/spec/' },
       { text: 'FAQ', link: '/faq/', activeMatch: '/faq/' },
     ],
 
@@ -27,6 +28,50 @@ export default defineConfig({
             {
               text: '介绍',
               link: '/guide/',
+            },
+            {
+              text: '项目结构',
+              link: '/guide/project',
+            },
+            {
+              text: '启动命令',
+              link: '/guide/command',
+            },
+          ],
+        },
+        {
+          text: '样式',
+          items: [
+            {
+              text: '介绍',
+              link: '/style/',
+            },
+          ],
+        },
+      ],
+      '/spec/': [
+        {
+          text: '项目规范',
+          items: [
+            {
+              text: '介绍',
+              link: '/spec/',
+            },
+            {
+              text: 'IDE',
+              link: '/spec/ide',
+            },
+            {
+              text: '代码规范',
+              link: '/spec/code',
+            },
+            {
+              text: '项目',
+              link: '/spec/project',
+            },
+            {
+              text: 'git规范',
+              link: '/spec/git',
             },
           ],
         },

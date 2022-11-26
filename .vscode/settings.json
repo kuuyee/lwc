@@ -78,9 +78,9 @@
       "source.fixAll.eslint": false
     }
   },
-  "cSpell.words": [],
+  "cSpell.words": ["iconify"],
   "commentTranslate.multiLineMerge": true,
   "typescript.suggest.autoImports": false,
-  "stylelint.validate": ["css", "less", "postcss", "scss", "vue"],
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "unref"],
   "stylelint.packageManager": "pnpm"
 }
