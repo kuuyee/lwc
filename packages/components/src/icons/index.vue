@@ -31,7 +31,7 @@ const styles = $computed((): CSSProperties => {
 })
 
 const classes = $computed(() => {
-  const cls = [bem(), `i-${_class}`]
+  const cls = [bem(), _class]
   // if (props.infinite) {
   //   cls.push(bem('infinite'))
   // }

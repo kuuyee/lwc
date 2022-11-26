@@ -1,5 +1,5 @@
 {
-  "name": "@apps/admin",
+  "name": "@apps/portal-view",
   "version": "0.1.0-beta.1",
   "scripts": {
     "build": "pnpm cross-env NODE_ENV=production vite build",

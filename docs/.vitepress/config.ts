@@ -37,14 +37,13 @@ export default defineConfig({
               text: '启动命令',
               link: '/guide/command',
             },
-          ],
-        },
-        {
-          text: '样式',
-          items: [
             {
-              text: '介绍',
-              link: '/style/',
+              text: '图标',
+              link: '/guide/icon',
+            },
+            {
+              text: '样式',
+              link: '/guide/style',
             },
           ],
         },

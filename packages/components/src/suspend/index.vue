@@ -40,7 +40,7 @@ watch(
     <n-popover placement="top" trigger="click">
       <template #trigger>
         <n-button strong secondary circle>
-          <Icon class="icon-park-outline:setting" />
+          <Icon class="i-icon-park-outline:setting" />
         </n-button>
       </template>
       <div :class="bem('modal')">
