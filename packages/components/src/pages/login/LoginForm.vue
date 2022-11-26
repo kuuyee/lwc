@@ -35,21 +35,22 @@ const props = defineProps<Props>()
 const [bem] = createBEM('login-form')
 
 function handleLogin(e: MouseEvent) {
-  showCode = true
   e?.preventDefault()
-}
 
-function handleVerifySuccess() {
   formRef?.validate(async (errors) => {
     if (!errors) {
-      try {
-        loading = true
-        await props.loginFunc?.(formModel)
-      } finally {
-        loading = false
-      }
+      showCode = true
     }
   })
+}
+
+async function handleVerifySuccess() {
+  try {
+    loading = true
+    await props.loginFunc?.(formModel)
+  } finally {
+    loading = false
+  }
 }
 </script>
 
