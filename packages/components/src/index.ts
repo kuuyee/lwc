@@ -10,3 +10,6 @@ export { default as AppProvider } from './provider/AppProvider.vue'
 
 // 验证码
 export { default as VerifyCode } from './verify-code/index.vue'
+
+// 播放器
+export { default as M3u8Play } from './player/M3u8Play.vue'

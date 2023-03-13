@@ -6,8 +6,10 @@ import {
   NConfigProvider,
   darkTheme,
   lightTheme,
+  NMessageProvider,
+  NDialogProvider,
 } from 'naive-ui'
-import { useDark } from '@gmok/use'
+import { useDark } from '@gomk/use'
 import Suspend from '../suspend/index.vue'
 
 // 主题色覆盖
@@ -27,13 +29,18 @@ const theme = $computed(() => (isDark ? darkTheme : lightTheme))
 </script>
 
 <template>
-  <n-config-provider
+  <n-config-provider :locale="zhCN" :date-locale="dateZhCN" :theme="theme">
+    <!-- <n-config-provider
     :locale="zhCN"
     :date-locale="dateZhCN"
     :theme-overrides="themeOverrides"
     :theme="theme"
-  >
-    <suspend />
-    <slot></slot>
+  > -->
+    <n-message-provider>
+      <n-dialog-provider>
+        <suspend />
+        <slot></slot>
+      </n-dialog-provider>
+    </n-message-provider>
   </n-config-provider>
 </template>

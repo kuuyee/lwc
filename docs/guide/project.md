@@ -36,6 +36,6 @@
 │       ├── use // hooks
 │       └── utils // 工具类
 ├── scripts
-│   └── gmok // 项目定制cli
+│   └── gomk // 项目定制cli
 └── turbo.json
 ```

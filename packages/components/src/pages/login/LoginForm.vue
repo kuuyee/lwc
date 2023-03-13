@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { FormInst } from 'naive-ui'
-import { createBEM } from '@gmok/utils'
+import { createBEM } from '@gomk/utils'
 import VerifyCode from '../../verify-code/index.vue'
 
 interface Props {
@@ -49,6 +49,7 @@ async function handleVerifySuccess() {
     loading = true
     await props.loginFunc?.(formModel)
   } finally {
+    showCode = false
     loading = false
   }
 }

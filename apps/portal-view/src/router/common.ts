@@ -1,6 +1,6 @@
 import type { RouteRecordRaw } from 'vue-router'
-import { BlankLayout } from '@gmok/layouts'
-import { NotFound } from '@gmok/components'
+import { BlankLayout } from '@gomk/layouts'
+import { NotFound } from '@gomk/components'
 
 export const commonRoutes: RouteRecordRaw[] = [
   {

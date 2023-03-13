@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
-import { pinia } from '@gmok/utils'
+import { pinia } from '@gomk/utils'
+import { usePost } from '@/bridge'
 
 export interface UserInfo {
   username: string
@@ -40,6 +41,19 @@ export const useUserStore = defineStore({
     },
     setUserInfo(info: UserInfo | null) {
       this.userInfo = info
+    },
+    async login(info: { username: string; password: string }) {
+      const { username, password } = info
+
+      const { data } = await usePost({
+        url: '/auth/login',
+        data: {
+          username,
+          password,
+        },
+      })
+      const token = data?.access_token ?? null
+      this.setToken(token)
     },
   },
 })

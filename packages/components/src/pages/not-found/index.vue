@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useRouter } from 'vue-router'
-import { createBEM } from '@gmok/utils'
+import { createBEM } from '@gomk/utils'
 
 const [bem] = createBEM('not-found')
 

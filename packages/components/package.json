@@ -1,5 +1,5 @@
 {
-  "name": "@gmok/components",
+  "name": "@gomk/components",
   "version": "0.1.0-beta.1",
   "license": "MIT",
   "exports": {
@@ -8,15 +8,19 @@
   "main": "./src/index.ts",
   "module": "./src/index.ts",
   "dependencies": {
-    "@gmok/use": "workspace:*",
-    "@gmok/utils": "workspace:*",
-    "naive-ui": "^2.34.2"
+    "@gomk/use": "workspace:*",
+    "@gomk/utils": "workspace:*",
+    "flv.js": "^1.6.2",
+    "naive-ui": "^2.34.3",
+    "video.js": "^7.21.3",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue-video-player": "^6.0.0"
   },
   "optionalDependencies": {
-    "vue": "3.2.45",
+    "vue": "3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@iconify/json": "^2.1.143"
+    "@iconify/json": "^2.2.33"
   }
 }

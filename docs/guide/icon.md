@@ -6,7 +6,7 @@
 
 ```vue
 <script setup>
-import { Icon } from '@gmok/components'
+import { Icon } from '@gomk/components'
 </script>
 <template>
   <Icon class="i-xxx"></Icon>
@@ -19,7 +19,7 @@ import { Icon } from '@gmok/components'
 
 ```vue
 <script setup>
-import { SvgIcon } from '@gmok/components'
+import { SvgIcon } from '@gomk/components'
 </script>
 <template>
   <svg-icon icon="xxx"></svg-icon>

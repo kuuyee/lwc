@@ -9,11 +9,11 @@
     "serve": "vitepress serve"
   },
   "devDependencies": {
-    "@algolia/client-search": "4.14.2",
-    "chalk": "^5.1.2",
+    "@algolia/client-search": "4.15.0",
+    "chalk": "^5.2.0",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
-    "vite": "^3.2.4",
+    "vite": "^4.1.4",
     "vitepress": "^1.0.0-draft.8",
     "yorkie": "^2.0.0"
   }

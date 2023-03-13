@@ -6,7 +6,7 @@ import { initChangesetCommand } from './changeset'
 import { initCreateCodeWorkspaceCommand } from './create-code-workspace'
 import { initCleanCommand } from './clean'
 
-const NAME = 'gmok'
+const NAME = 'gomk'
 
 async function bootstrap() {
   const cli = cac(NAME)

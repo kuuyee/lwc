@@ -1,5 +1,5 @@
 ---
-'@gmok/components': patch
+'@gomk/components': patch
 ---
 
 feat: add btn

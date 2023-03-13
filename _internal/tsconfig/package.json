@@ -1,7 +1,10 @@
 {
-  "name": "@gmok/tsconfig",
+  "name": "@gomk/tsconfig",
   "version": "0.1.0",
   "files": [
     "base.json"
-  ]
+  ],
+  "dependencies": {
+    "vite": "4.1.4"
+  }
 }

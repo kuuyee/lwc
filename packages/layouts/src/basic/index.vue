@@ -16,7 +16,7 @@ import Header from './components/header/index.vue'
       >
         <Menu />
       </n-layout-sider>
-      <n-layout-content>
+      <n-layout-content class="p-4">
         <router-view />
       </n-layout-content>
     </n-layout>

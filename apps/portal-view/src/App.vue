@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { AppProvider } from '@gmok/components'
+import { AppProvider } from '@gomk/components'
 </script>
 
 <template>

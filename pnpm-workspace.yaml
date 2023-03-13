@@ -2,6 +2,5 @@ packages:
   - 'packages/*'
   - 'packages/*/*'
   - 'apps/*'
-  - 'scripts/*'
   - 'docs'
   - '_internal/*'

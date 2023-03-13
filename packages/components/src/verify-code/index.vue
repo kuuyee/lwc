@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, watch } from 'vue'
 import resetSvg from './assets/reset.png'
-import { createBEM } from '@gmok/utils'
+import { createBEM } from '@gomk/utils'
 
 const [bem] = createBEM('verify-code')
 

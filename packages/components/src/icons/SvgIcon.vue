@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue'
 import { useAttrs } from 'vue'
-import { createBEM } from '@gmok/utils'
+import { createBEM } from '@gomk/utils'
 
 const { class: _class } = $(useAttrs())
 

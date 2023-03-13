@@ -55,3 +55,20 @@ pnpm install
 - 需要使用按需引入，入 `import {set} from ''lodash-es`
 - 引入第三方库时，需要先评估下是否最优，在引入
 - 每次提交 pr，尽量简单写下说明且每次 pr 的代码量不要太多，一小个功能一次提交
+
+### lal 监控本地测试
+
+- 安装 lal
+
+```bash
+git clone https://github.com/q191201771/lal.git
+cd lal
+make build
+./bin/lalserver -c conf/lalserver.conf.json
+```
+
+- 运行前端项目
+
+```bash
+pnpm dev
+```

@@ -1,5 +1,5 @@
 import type { UserConfig, UserConfigFn } from 'vite'
-import { loadEnv, defineConfig } from 'vite'
+import { loadEnv, defineConfig, mergeConfig } from 'vite'
 import { wrapperEnv, resolveProxy } from './utils'
 import { resolve } from 'path'
 import { configVitePlugins } from './plugins'
@@ -8,6 +8,7 @@ export type ViteConfig = Promise<UserConfig | UserConfigFn>
 
 export async function createViteConfig(
   cwd: string = process.cwd(),
+  userConfig?: UserConfig,
 ): Promise<UserConfig | UserConfigFn> {
   return defineConfig(async ({ command, mode }) => {
     const root = cwd
@@ -54,6 +55,6 @@ export async function createViteConfig(
       plugins: await configVitePlugins(root, viteEnv, command === 'build'),
     }
 
-    return commonConfig
+    return mergeConfig(commonConfig, userConfig || {})
   })
 }

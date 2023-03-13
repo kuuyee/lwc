@@ -1,5 +1,5 @@
 import type { RouteRecordRaw } from 'vue-router'
-import { BasicLayout } from '@gmok/layouts'
+import { BasicLayout } from '@gomk/layouts'
 
 export const asyncRoutes: RouteRecordRaw[] = [
   {
@@ -7,10 +7,15 @@ export const asyncRoutes: RouteRecordRaw[] = [
     name: 'BasicPage',
     component: BasicLayout,
     children: [
+      // {
+      //   path: '/home',
+      //   name: 'Home',
+      //   component: () => import('@/pages/home/index.vue'),
+      // },
       {
         path: '/home',
-        name: 'Home',
-        component: () => import('@/pages/home/index.vue'),
+        name: 'RelaysList',
+        component: () => import('@/pages/relays/index.vue'),
       },
     ],
   },

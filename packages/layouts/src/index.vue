@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // import type { PropType, CSSProperties } from 'vue'
-// import { createBEM } from '@gmok/utils'
+// import { createBEM } from '@gomk/utils'
 
 // const [bem] = createBEM('iconify')
 </script>

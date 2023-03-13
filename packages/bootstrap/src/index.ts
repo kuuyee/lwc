@@ -1,10 +1,10 @@
 import type { DefineComponent } from 'vue'
-import '@gmok/design'
+import '@gomk/design'
 import 'virtual:svg-icons-register'
 import 'uno.css'
 import { createApp } from 'vue'
 import { Router } from 'vue-router'
-import { pinia } from '@gmok/utils'
+import { pinia } from '@gomk/utils'
 import { setupNaive } from './naive'
 
 export interface BootstrapOptions {

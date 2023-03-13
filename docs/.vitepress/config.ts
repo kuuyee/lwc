@@ -3,7 +3,7 @@ import renderPermaLink from './render-perma-link'
 import MarkDownItCustomAnchor from './markdown-it-custom-anchor'
 
 export default defineConfig({
-  title: 'Gmok',
+  title: 'gomk',
   description: '企业级开发框架',
   lang: 'zh-CN',
   vue: {

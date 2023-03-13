@@ -9,32 +9,32 @@
       "path": "docs"
     },
     {
-      "name": "@gmok/config-lint",
+      "name": "@gomk/config-lint",
       "path": "packages/_internal_/lint"
     },
     {
-      "name": "@gmok/tsconfig",
+      "name": "@gomk/tsconfig",
       "path": "packages/_internal_/tsconfig"
     },
     {
-      "name": "@gmok/config-vite",
+      "name": "@gomk/config-vite",
       "path": "packages/_internal_/vite"
     },
     {
-      "name": "@gmok/components",
+      "name": "@gomk/components",
       "path": "packages/components"
     },
     {
-      "name": "@gmok/styles",
+      "name": "@gomk/styles",
       "path": "packages/styles"
     },
     {
-      "name": "@gmok/utils",
+      "name": "@gomk/utils",
       "path": "packages/utils"
     },
     {
-      "name": "@gmok/cli",
-      "path": "scripts/gmok"
+      "name": "@gomk/cli",
+      "path": "scripts/gomk"
     },
     {
       "name": "root",

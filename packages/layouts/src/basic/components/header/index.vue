@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue'
 import { computed } from 'vue'
-import { createBEM } from '@gmok/utils'
+import { createBEM } from '@gomk/utils'
 
 const [bem] = createBEM('layout-header')
 

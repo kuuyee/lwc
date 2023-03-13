@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { createBEM } from '@gmok/utils'
+import { createBEM } from '@gomk/utils'
 import LoginForm from './LoginForm.vue'
 
 interface Props {

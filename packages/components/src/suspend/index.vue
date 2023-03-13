@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { watch } from 'vue'
-import { createBEM } from '@gmok/utils'
-import { useDark } from '@gmok/use'
+import { createBEM } from '@gomk/utils'
+import { useDark } from '@gomk/use'
 import Icon from '../icons/index.vue'
 
 const [bem] = createBEM('suspend')
@@ -22,8 +22,8 @@ const themeOptions = [
     value: 'light',
   },
   // {
-  //   label: 'gmok',
-  //   value: 'gmok',
+  //   label: 'gomk',
+  //   value: 'gomk',
   // },
 ]
 

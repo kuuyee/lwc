@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue'
 import { useAttrs } from 'vue'
-import { createBEM, isString } from '@gmok/utils'
+import { createBEM, isString } from '@gomk/utils'
 
 interface Props {
   color?: string

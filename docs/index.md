@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: Gmok
+title: gomk
 titleTemplate: 企业门户系统
 
 hero:
-  name: Gmok
+  name: gomk
   text: 企业门户系统
   image:
     src: /logo.png

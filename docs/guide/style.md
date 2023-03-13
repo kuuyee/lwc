@@ -35,7 +35,7 @@ e.g
 
 ```html
 <script setup lang="ts">
-  import { createBEM } from '@gmok/utils'
+  import { createBEM } from '@gomk/utils'
 
   const [bem] = createBEM('iconify')
 </script>
