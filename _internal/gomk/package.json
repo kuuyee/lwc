@@ -1,0 +1,39 @@
+{
+  "name": "@gomk/cli",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "module": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "bin": {
+    "gomk": "./bin/gomk-cli.mjs"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "pnpm unbuild",
+    "dev": "pnpm esno ./src/dev.ts",
+    "stub": "pnpm unbuild --stub"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@changesets/git": "^2.0.0",
+    "@manypkg/get-packages": "^2.1.0",
+    "cac": "^6.7.14",
+    "consola": "^2.15.3",
+    "execa": "^7.1.0",
+    "fs-extra": "^11.1.0",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/prompts": "^2.4.3"
+  }
+}

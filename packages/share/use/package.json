@@ -1,0 +1,15 @@
+{
+  "name": "@gomk/use",
+  "version": "0.1.0-beta.1",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "dependencies": {
+    "@vueuse/core": "^9.13.0",
+    "vue": "3.2.47",
+    "vue-router": "^4.1.6"
+  }
+}

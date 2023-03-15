@@ -1,0 +1,13 @@
+{
+  "extends": "@gomk/tsconfig/base.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["dom", "esnext"],
+    "types": ["vite/client", "unplugin-icons/types/vue"]
+  }
+}

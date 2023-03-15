@@ -1,0 +1,11 @@
+:root[color-scheme='dark'] {
+  /* 基础文本颜色 */
+  --text-color-base: #fff;
+  --text-color-btn: #fff;
+
+  /* 登陆界面 - start */
+  --text-color-login-title: #fff;
+  --backgournd-color-login: #293146;
+
+  /* 登陆界面 - end */
+}

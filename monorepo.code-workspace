@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "name": "@apps/admin",
+      "path": "apps/admin"
+    },
+    {
+      "name": "docs",
+      "path": "docs"
+    },
+    {
+      "name": "@gomk/config-lint",
+      "path": "packages/_internal_/lint"
+    },
+    {
+      "name": "@gomk/tsconfig",
+      "path": "packages/_internal_/tsconfig"
+    },
+    {
+      "name": "@gomk/config-vite",
+      "path": "packages/_internal_/vite"
+    },
+    {
+      "name": "@gomk/components",
+      "path": "packages/components"
+    },
+    {
+      "name": "@gomk/styles",
+      "path": "packages/styles"
+    },
+    {
+      "name": "@gomk/utils",
+      "path": "packages/utils"
+    },
+    {
+      "name": "@gomk/cli",
+      "path": "scripts/gomk"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ]
+}

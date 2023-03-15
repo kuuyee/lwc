@@ -1,0 +1,7 @@
+{
+  "extends": "@gomk/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "./"
+  },
+  "include": ["src"]
+}

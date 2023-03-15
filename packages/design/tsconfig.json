@@ -1,0 +1,4 @@
+{
+  "extends": "@gomk/tsconfig/base.json",
+  "include": ["src"]
+}
