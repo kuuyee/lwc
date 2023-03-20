@@ -1,1 +1,1 @@
-module.exports = require('@gmok/config-lint/lintstaged')
+module.exports = require('@gomk/config-lint/lintstaged')

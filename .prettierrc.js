@@ -1,1 +1,1 @@
-module.exports = require('@gmok/config-lint/prettier')
+module.exports = require('@gomk/config-lint/prettier')

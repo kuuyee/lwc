@@ -1,1 +1,1 @@
-module.exports = require('@gmok/config-lint/stylelint/index')
+module.exports = require('@gomk/config-lint/stylelint/index')

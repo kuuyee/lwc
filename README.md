@@ -61,8 +61,7 @@ pnpm install
 - 安装 lal
 
 ```bash
-git clone https://github.com/q191201771/lal.git
-cd lal
+cd apps/lal
 make build
 ./bin/lalserver -c conf/lalserver.conf.json
 ```

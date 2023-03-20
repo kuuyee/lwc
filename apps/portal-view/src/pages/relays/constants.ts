@@ -8,6 +8,25 @@ export const deviceOptions: {
   },
 ]
 
+export enum ORIGIN_TYPE {
+  URL,
+  CAMERA,
+}
+
+export const originOptions: {
+  label: string
+  value: number
+}[] = [
+  {
+    label: 'URL',
+    value: ORIGIN_TYPE.URL,
+  },
+  {
+    label: '摄像头',
+    value: ORIGIN_TYPE.CAMERA,
+  },
+]
+
 export function createStreamUrlList(host: string, streamName: string) {
   return [
     {

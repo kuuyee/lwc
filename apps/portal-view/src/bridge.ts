@@ -2,7 +2,7 @@ import { createAxios } from '@gomk/utils'
 import { createDiscreteApi } from 'naive-ui'
 import { useUserStoreWithOut } from '@/store/user'
 
-const { useDelete, useGet, usePost, usePut } = createAxios({
+const { useDelete, useGet, usePost, usePut, apiRequest } = createAxios({
   getToken: async () => {
     const userStore = useUserStoreWithOut()
     return userStore.getToken
@@ -16,4 +16,4 @@ const { useDelete, useGet, usePost, usePut } = createAxios({
   },
 })
 
-export { useDelete, useGet, usePost, usePut }
+export { useDelete, useGet, usePost, usePut, apiRequest }
